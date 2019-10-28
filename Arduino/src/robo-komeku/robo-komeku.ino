@@ -13,6 +13,7 @@ void loop() {
 if(Serial.available()){
 
  t = Serial.read();//le a entrada serial  
+ Serial.print("Voce cliclou em:");
  Serial.println(t);//escreve na saida serial
 
 }
