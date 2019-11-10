@@ -14,7 +14,7 @@ O código utilizado no Arduino pode ser encontrado [aqui](https://github.com/Jho
 ## Emissor
 Para o microcontrolador receber um comando via rádio frequência é necessário que este sinal venha de um emissor. Foi escolhido o smartphone como emissor, por questões de facilidade e fácil portabilidade, utilizando um aplicativo próprio criado com App Inventor 2 e o protocólo Bluetooth.
 É possível baixar o aplicativo para Android no formato *apk* [aqui](), e caso seja preciso alterações, é possível baixar o projeto App Inventor através desse [link]().
-![f3994fac-79be-499f-a0c2-341d600cfc7d](https://user-images.githubusercontent.com/38075230/68551531-82368e00-03ec-11ea-8322-5089974e2076.jpg)
+![f3994fac-79be-499f-a0c2-341d600cfc7d](https://user-images.githubusercontent.com/38075230/68551531-82368e00-03ec-11ea-8322-5089974e2076.jpg  =380x180)
 
 O app consiste em, conectar despositivos Bluetooth, selecionar a velociade do robô, ver logs da saída serial do arduino, caso necessário e enviar comandos de direção. Dentro do pseudo código do app, é possível ver como isso é feito. As direções enviadas para o robô, são letra maiusculas e minúsculas quando acionado o botão ou desacionado o mesmo, assim o robô sabe qual a ação a assumir.
 
